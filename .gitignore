@@ -1,0 +1,32 @@
+# 构建产物与虚拟环境
+_build/
+build/
+dist/
+*.spec.bak
+
+# 运行时数据（配置 / 索引 / 日志）
+config.json
+index.db
+index.db-shm
+index.db-wal
+_server.log
+_server.err
+
+# 知识库私人文档（保留 kb/ 结构与示例时请按需取舍）
+# kb/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时测试脚本
+_*.py
+_qa/
+.playwright-cli/
